@@ -1,0 +1,8 @@
+class main{
+    public static void main(String[] args){
+        float p,r,t,si;
+        p = 20000 ; r = 30 ; t = 1.5f;
+        si = (p*r*t)/100;
+        System.out.println("simple interest is :"+si);
+    }
+}
