@@ -1,0 +1,14 @@
+class swapnumbers{
+    public static void main(String[] args){
+        int first = 50, second = 60;
+        System.out.println("--before swap--");
+        System.out.println("first number="+first);
+        System.out.println("second number="+second);
+        int temporary = first;
+        first = second;
+        second = temporary;
+        System.out.println("--after swap--");
+        System.out.println("first number="+first);
+        System.out.println("second number="+second);
+    }
+}
